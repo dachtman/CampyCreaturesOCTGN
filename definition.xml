@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        name="Campy Creatures"
+        id="b8c305e7-f758-4c3f-9141-f03a69a35271"
+        octgnVersion="3.1.0.0"
+        version="0.0.1.01"
+        scriptVersion="3.1.0.2"
+        markersize="19"
+        tags="OCTGN, Campy Creatures"
+        description="Campy Creatures Game Package for OCTGN."
+        setsurl="https://twistedsistem.wixsite.com/octgnmarvelchampions"
+        gameurl="https://twistedsistem.wixsite.com/octgnmarvelchampions"
+        authors="twistedsistem"
+        iconurl="https://cf.geekdo-images.com/imagepage/img/_-3lT4RFkb6RIVkTgtXMy7WfWxg=/fit-in/900x600/filters:no_upscale()/pic4350783.jpg"
+        usetwosidedtable="False">
+    <scripts>
+    </scripts>
+    <events>
+    </events>
+    <symbols>
+        <symbol name="Mental" id="mental" src="symbols/mental.png" />
+        <symbol name="Physical" id="physical" src="symbols/physical.png" />
+        <symbol name="Energy" id="energy" src="symbols/energy.png" />
+        <symbol name="Wild" id="wild" src="symbols/wild.png" />
+    </symbols>
+    <proxygen definitionsrc="proxy/proxydef.xml"/>
+    <phases>
+    </phases>
+    <documents>
+    </documents>
+    <gameModes/>
+    <globalvariables>
+    </globalvariables>
+    <card back="cards/back.png" front="cards/front.png" width="70" height="91" cornerRadius="3">
+        <property name="pip" type="Integer"/>
+        <property name="ability" type="String"/>
+        <property name="points" type="Integer"/>
+        <property name="mortalSet" type="Sring"/>
+        <property name="houses" type="Integer"/>
+        <property name="type" type="String"/>
+        <property name="typeCount" type="Integer"/>
+        <property name="strength" type="Integer"/>
+        <property name="color" type="String"/>
+    </card>
+    <markers>
+	  </markers>
+    <table name="Table" visibility="undefined" ordered="False" width="1280" height="825" background="background/playmat.png" backgroundStyle="uniform" >
+    </table>
+    <player summary="Houses: {#Houses} | Assistants: {#Assistants} | Teenagers: {#Teenagers} | Engineers: {#Engineers} | Score: {#Score}">
+      <counter name="Houses" default="0" icon="symbols/health.png" />
+      <counter name="Assistants" default="0" icon="symbols/health.png" />
+      <counter name="Teenagers" default="0" icon="symbols/health.png" />
+      <counter name="Engineers" default="0" icon="symbols/health.png" />
+      <counter name="Score" default="0" icon="symbols/health.png" />
+      <group name="Hand" visibility="me" ordered="False" icon="symbols/hand.png" viewState="expanded">
+      </group>
+      <group name="Discard Pile" visibility="all" icon="symbols/dead.png" shortcut="del">
+      </group>
+      <group name="Assistants" visibility="all" icon="symbols/dead.png" shortcut="del">
+      </group>
+    </player>
+    <shared summary="">
+      <group name="mortals" visibility="none" icon="symbols/hand.png" collapsed="False">
+      </group>
+    </shared>
+    <deck>
+        <section name="Deck" group="Deck"/>
+    </deck>
+    <sharedDeck>
+      <section name="mortals" group="mortals" />
+    </sharedDeck>
+</game>
