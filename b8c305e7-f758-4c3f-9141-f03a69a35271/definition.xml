@@ -35,12 +35,17 @@
         <property name="pip" type="Integer"/>
         <property name="ability" type="String"/>
         <property name="points" type="Integer"/>
-        <property name="mortalSet" type="Sring"/>
+        <property name="mortalSet" type="String"/>
         <property name="houses" type="Integer"/>
         <property name="type" type="String"/>
         <property name="typeCount" type="Integer"/>
         <property name="strength" type="Integer"/>
         <property name="color" type="String"/>
+        <size name="pink" width="70" height="91" back="cards/pinkback.png" front="cards/front.png" />
+        <size name="green" width="70" height="91" back="cards/greenback.png" front="cards/front.png" />
+        <size name="blue" width="70" height="91" back="cards/blueback.png" front="cards/front.png" />
+        <size name="purple" width="70" height="91" back="cards/purpleback.png" front="cards/front.png" />
+        <size name="red" width="70" height="91" back="cards/redback.png" front="cards/front.png" />
     </card>
     <markers>
 	  </markers>
@@ -53,6 +58,8 @@
       <counter name="Engineers" default="0" icon="symbols/health.png" />
       <counter name="Score" default="0" icon="symbols/health.png" />
       <group name="Hand" visibility="me" ordered="False" icon="symbols/hand.png" viewState="expanded">
+      </group>
+      <group name="Deck" visibility="all" icon="symbols/dead.png" shortcut="del">
       </group>
       <group name="Discard Pile" visibility="all" icon="symbols/dead.png" shortcut="del">
       </group>

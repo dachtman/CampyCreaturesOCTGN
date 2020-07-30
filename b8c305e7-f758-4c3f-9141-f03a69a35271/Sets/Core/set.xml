@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<set name="Core" id="84d905ee-c929-477a-8965-e3e9b6ccd520" gameId="b8c305e7-f758-4c3f-9141-f03a69a35271" gameVersion="0.0.0.0" version="1.0.0.0">
+  <cards>
+    <card name="The Blob" id="6d943e47-0abd-4050-b048-10ab21293e2b" size="pink">
+      <property name="strength" value="0"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="Discard a creature in hand to ABSORB its strength"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Swamp Creature" id="0816b78d-d932-4806-aa43-db674c2d7d35" size="pink">
+      <property name="strength" value="1"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="Give the mortal you capture to another player"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Invisible Man" id="e8e536c3-bb62-48e2-9fde-06736abb7bd6" size="pink">
+      <property name="strength" value="2"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="You may discard a mortal you have captured"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Mummy" id="29a4fdb0-8899-4959-9172-eeaf6ddd37fe" size="pink">
+      <property name="strength" value="3"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="rise and capture first if a jaiju is in play"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Invader" id="ae67166d-9ec0-493c-bf1c-599c01475249" size="pink">
+      <property name="strength" value="4"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="capture two mortals if possible"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Werewolf" id="3edc9f58-bbf4-48e0-b9d9-3fc4b1ac2526" size="pink">
+      <property name="strength" value="5"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="Force the player to your right to discard a creature"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Vampire" id="18649717-5deb-4574-87a6-b2968db78d11" size="pink">
+      <property name="strength" value="6"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="Drain the ability of the creature to your left"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Beast" id="9743bdf5-4a8c-439d-bc05-d844bfb33c51" size="pink">
+      <property name="strength" value="7"/>
+      <property name="pip" value="0"/>
+      <property name="ability" value="Score 3 points if the beast is in hand at the round's end"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Kaiju" id="c0d2f5d6-706e-46f7-9678-0b1be7fcc837" size="pink">
+      <property name="strength" value="8"/>
+      <property name="pip" value="0"/>
+      <property name="color" value="pink"/>
+    </card>
+    <card name="The Blob" id="37f52925-c718-4442-af02-46531f3aa459" size="green">
+      <property name="strength" value="0"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="Discard a creature in hand to ABSORB its strength"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Swamp Creature" id="596123e1-3dfe-4952-9d01-af98aee4059f" size="green">
+      <property name="strength" value="1"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="Give the mortal you capture to another player"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Invisible Man" id="4f203f92-c2cc-46a0-9d54-b3f29255380d" size="green">
+      <property name="strength" value="2"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="You may discard a mortal you have captured"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Mummy" id="c4b44613-4b07-4c4d-8a35-2dec3f7fb7bf" size="green">
+      <property name="strength" value="3"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="rise and capture first if a jaiju is in play"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Invader" id="25d76dc5-acde-44d7-b599-83b3af9ca08a" size="green">
+      <property name="strength" value="4"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="capture two mortals if possible"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Werewolf" id="c91de0b2-13cb-4dc1-a046-464123e07b5e" size="green">
+      <property name="strength" value="5"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="Force the player to your right to discard a creature"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Vampire" id="2fecfef6-00f8-4c1e-af2e-3b3aabf603fe" size="green">
+      <property name="strength" value="6"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="Drain the ability of the creature to your left"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Beast" id="2b02ab8d-f0a4-4422-8255-01315a3dbfdf" size="green">
+      <property name="strength" value="7"/>
+      <property name="pip" value="0"/>
+      <property name="ability" value="Score 3 points if the beast is in hand at the round's end"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Kaiju" id="12037c8a-81ed-4e88-8aef-df0940509b8e" size="green">
+      <property name="strength" value="8"/>
+      <property name="pip" value="0"/>
+      <property name="color" value="green"/>
+    </card>
+    <card name="The Blob" id="6d943e47-0abd-4050-b048-10ab21293e2b" size="blue">
+      <property name="strength" value="0"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="Discard a creature in hand to ABSORB its strength"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Swamp Creature" id="0816b78d-d932-4806-aa43-db674c2d7d35" size="blue">
+      <property name="strength" value="1"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="Give the mortal you capture to another player"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Invisible Man" id="e8e536c3-bb62-48e2-9fde-06736abb7bd6" size="blue">
+      <property name="strength" value="2"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="You may discard a mortal you have captured"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Mummy" id="29a4fdb0-8899-4959-9172-eeaf6ddd37fe" size="blue">
+      <property name="strength" value="3"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="rise and capture first if a jaiju is in play"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Invader" id="ae67166d-9ec0-493c-bf1c-599c01475249" size="blue">
+      <property name="strength" value="4"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="capture two mortals if possible"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Werewolf" id="3edc9f58-bbf4-48e0-b9d9-3fc4b1ac2526" size="blue">
+      <property name="strength" value="5"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="Force the player to your right to discard a creature"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Vampire" id="18649717-5deb-4574-87a6-b2968db78d11" size="blue">
+      <property name="strength" value="6"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="Drain the ability of the creature to your left"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Beast" id="9743bdf5-4a8c-439d-bc05-d844bfb33c51" size="blue">
+      <property name="strength" value="7"/>
+      <property name="pip" value="0"/>
+      <property name="ability" value="Score 3 points if the beast is in hand at the round's end"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Vampire" id="18649717-5deb-4574-87a6-b2968db78d11" size="blue">
+      <property name="strength" value="8"/>
+      <property name="pip" value="0"/>
+      <property name="color" value="blue"/>
+    </card>
+    <card name="The Blob" id="6d943e47-0abd-4050-b048-10ab21293e2b" size="purple">
+      <property name="strength" value="0"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="Discard a creature in hand to ABSORB its strength"/>
+      <property name="color" value="purple"/>
+    </card>
+    <card name="The Swamp Creature" id="0816b78d-d932-4806-aa43-db674c2d7d35" size="purple">
+      <property name="strength" value="1"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="Give the mortal you capture to another player"/>
+      <property name="color" value="purple"/>
+    </card>
+    <card name="The Invisible Man" id="e8e536c3-bb62-48e2-9fde-06736abb7bd6" size="purple">
+      <property name="strength" value="2"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="You may discard a mortal you have captured"/>
+      <property name="color" value="purple"/>
+    </card>
+    <card name="The Mummy" id="29a4fdb0-8899-4959-9172-eeaf6ddd37fe" size="purple">
+      <property name="strength" value="3"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="rise and capture first if a jaiju is in play"/>
+      <property name="color" value="purple"/>
+    </card>
+    <card name="The Invader" id="ae67166d-9ec0-493c-bf1c-599c01475249" size="purple">
+      <property name="strength" value="4"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="capture two mortals if possible"/>
+      <property name="color" value="purple"/>
+    </card>
+    <card name="The Werewolf" id="3edc9f58-bbf4-48e0-b9d9-3fc4b1ac2526" size="purple">
+      <property name="strength" value="5"/>
+      <property name="pip" value="2"/>
+      <property name="ability" value="Force the player to your right to discard a creature"/>
+      <property name="color" value="purple"/>
+    </card>
+    <card name="The Vampire" id="18649717-5deb-4574-87a6-b2968db78d11" size="purple">
+      <property name="strength" value="6"/>
+      <property name="pip" value="1"/>
+      <property name="ability" value="Drain the ability of the creature to your left"/>
+      <property name="color" value="purple"/>
+    </card>
+    <card name="The Beast" id="9743bdf5-4a8c-439d-bc05-d844bfb33c51" size="purple">
+      <property name="strength" value="7"/>
+      <property name="pip" value="0"/>
+      <property name="ability" value="Score 3 points if the beast is in hand at the round's end"/>
+      <property name="color" value="purple"/>
+    </card>
+    <card name="The Vampire" id="18649717-5deb-4574-87a6-b2968db78d11" size="purple">
+      <property name="strength" value="8"/>
+      <property name="pip" value="0"/>
+      <property name="color" value="purple"/>
+    </card>
+  </cards>
+</set>
